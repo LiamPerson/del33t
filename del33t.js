@@ -129,4 +129,6 @@ function escapeRegex(string) {
     return string.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
 }
 
-export default del33t;
+console.log(del33t("h0vs*"));
+
+// module.exports = del33t;
