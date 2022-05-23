@@ -129,6 +129,4 @@ function escapeRegex(string) {
     return string.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
 }
 
-console.log(del33t("h0vs*"));
-
-// module.exports = del33t;
+module.exports = del33t;
