@@ -18,7 +18,7 @@ to use this in any JavaScript application.
 ```js
 const del33t = require('./del33t'); // Require the .js file
 const strangeWord = "h0vs*";
-console.log("Normal...ish words:", del33t(boringWords));
+console.log("Normal...ish words:", del33t(strangeWord));
 /*
 Normal...ish words: [
   'hovsi', 'hovsu',
